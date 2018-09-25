@@ -1,6 +1,14 @@
 node-fetch
 ==========
 
+---
+
+This is Intercom's fork of node-fetch. It's designed for use in the new marketing site. In this
+version, there is _no_ browser compatibility—it's NodeJS-only. This is to allow us to polyfill
+global.fetch in Apollo's server side rendering function.
+
+---
+
 [![npm version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![coverage status][codecov-image]][codecov-url]
